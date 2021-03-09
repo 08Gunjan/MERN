@@ -1,0 +1,36 @@
+div{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 200px auto;
+}
+
+div button{
+    position: absolute;
+    margin:180px 120px;
+    padding:10px 20px;
+    font-size: 1.6rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    background-color: thistle;
+    transition:all;
+
+}
+div button:hover{
+    background-color: black;
+    color:#80b918;
+    border:1px solid #80b918;
+    text-shadow: -1px -2px 0.5px #bfd200;
+    box-shadow: 0px 0.5px 1px #aacc00,
+                 0px 3px 2px #bfd200,
+                 0px 3px 1px #d4d700,
+                 0px 2px 2px #bfd7ff;
+    margin: 200px 120px 200px 120px;
+    transition:all;
+   
+
+}
+body{
+    background-color: grey;
+}
+
